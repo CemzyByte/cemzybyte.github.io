@@ -1,0 +1,117 @@
+body {
+    font-family: 'Merriweather', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(35, 35, 35);
+    color: #f5f5f5; /* Set default text color */
+}
+
+header {
+    background-color: #333333;
+    padding: 20px;
+    color: #ede8e8; /* Set default text color */
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    text-align: center; /* Align h2 to left */
+    margin: 50px auto 50px; /* Keep the top margin and center horizontally, add 100px space from the bottom */
+
+}
+
+h2 {
+    margin: 0;
+    font-size: 25px;
+    color: #ffffff;
+    
+    text-align: left; /* Align h2 to left */
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3c3e3d; /* Green background color */
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s; /* Smooth transition */
+    margin-top: 20px; /* Add space above the button */
+}
+.button:hover {
+    background-color: #322d2d; /* Darker green on hover */
+}
+    .introduction {
+        padding: 0 500px;
+        max-width: 700px;
+            margin: 120px auto 120px; /* Keep the top margin and center horizontally, add 100px space from the bottom */
+
+
+
+    }
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left; /* Align h2 to left */
+
+    padding: 0 20px;
+    color: #514f4f; /* Set default text color */
+}
+.mainintroduction {
+    max-width: 1000px; /* Adjust max-width as needed */
+    margin: 120px auto 120px; /* Keep the top margin and center horizontally, add 100px space from the bottom */
+    padding: 0 calc((100vw - 1000px - 120px) / 2); /* Calculate padding to center within page margin */
+    text-align: left; /* Align text to the left */
+}
+
+.projects {
+    margin: 120px auto 120px; /* Keep the top margin and center horizontally, add 100px space from the bottom */
+
+    text-align: center;
+}
+
+.project-cube {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #3c3e3d;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.project-cube h3 {
+    margin-top: 50px;
+}
+
+.project-cube a {
+    text-decoration: none;
+    color: white;
+}
+
+.project-cube:hover {
+    background-color: #322d2d;
+}
+
+
+.content {
+    background-color    : rgba(191, 191, 191, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
